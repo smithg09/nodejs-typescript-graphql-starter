@@ -1,0 +1,21 @@
+import { Router, Request, Response } from 'express';
+import auth from './routes/auth';
+import user from './routes/user';
+import agendash from './routes/agendash';
+
+// guaranteed to get dependencies
+export default () => {
+  const app = Router();
+  auth(app);
+  user(app);
+  agendash(app);
+
+  app.get('/server_status', (_req: Request, _res: Response) => {
+    _res.status(200).json({
+      status: true,
+      message: 'Server Up & Running',
+    });
+  });
+
+  return app;
+};
