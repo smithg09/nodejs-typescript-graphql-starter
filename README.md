@@ -29,13 +29,13 @@
 </p>
 </p>
 
-## TechStack
+## Tech Stack
 
 
 * [Node.js](https://nodejs.org/en/), [TypeScript](https://www.typescriptlang.org/) , [JWT](https://jwt.io/), [Prettier](https://prettier.io/)— core platform and dev tools
-<!-- * [GraphQL.js][gqljs], [GraphQL.js Relay][gqlrelay], [DataLoader][loader], [validator][validator] — [GraphQL][gql] schema and API endpoint -->
 * [MongoDB](https://www.mongodb.com/) — data access and db automation
 * [Jest](https://jestjs.io/) - unit and snapshot testing
+<!-- * [GraphQL.js][gqljs], [GraphQL.js Relay][gqlrelay], [DataLoader][loader], [validator][validator] — [GraphQL][gql] schema and API endpoint -->
 
 
 
@@ -72,8 +72,6 @@ It uses nodemon for livereloading ✌️
 - [ ] CRUD Operations.
 - [ ] Unit tests.
 
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
@@ -84,8 +82,6 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-
 
 <!-- LICENSE -->
 ## License
