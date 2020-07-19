@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo">
-    <img src="nodetype.png" alt="Logo" width="250" height="100">
+    <img src="nodetype.png" alt="Logo" width="300" height="150">
   </a>
 
   <h3 align="center">Nodejs-Typescript/Express/MongoDB Boilerplate</h3>
@@ -32,10 +32,11 @@
 ## TechStack
 
 
-* [Node.js](https://nodejs.org/en/), [TypeScript][https://www.typescriptlang.org/] , [JWT][https://jwt.io/], [Prettier][https://prettier.io/] — core platform and dev tools
+* [Node.js](https://nodejs.org/en/), [TypeScript](https://www.typescriptlang.org/) , [JWT](https://jwt.io/), [Prettier](https://prettier.io/)— core platform and dev tools
 <!-- * [GraphQL.js][gqljs], [GraphQL.js Relay][gqlrelay], [DataLoader][loader], [validator][validator] — [GraphQL][gql] schema and API endpoint -->
-* [MongoDB][https://www.mongodb.com/] — data access and db automation
+* [MongoDB](https://www.mongodb.com/) — data access and db automation
 * [Jest][jest] - unit and snapshot testing
+
 
 
 ## Development
@@ -64,11 +65,13 @@ npm run start
 It uses nodemon for livereloading :peace-fingers:
 
 
+
 # Roadmap
 - [x] Typescript class based implementation.
 - [ ] Add GraphQL Support.
 - [ ] CRUD Operations.
 - [ ] Unit tests.
+
 
 
 <!-- CONTRIBUTING -->
@@ -81,6 +84,8 @@ Contributions are what make the open source community such an amazing place to b
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+
 
 <!-- LICENSE -->
 ## License
