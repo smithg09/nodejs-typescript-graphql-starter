@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo">
-    <img src="nodetype.png" alt="Logo" width="150" height="80">
+    <img src="nodetype.png" alt="Logo" width="250" height="100">
   </a>
 
   <h3 align="center">Nodejs-Typescript/Express/MongoDB Boilerplate</h3>
