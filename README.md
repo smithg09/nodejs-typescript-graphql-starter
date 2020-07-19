@@ -8,8 +8,7 @@
   <p align="center">
     A 👨🏻‍💻 Node-Typescript/Express/MongoDB Boilerplate with User Authentication and Authorization with JWT support.
     <br />
-    <p>This is an updated version of Sam Quinn's bulletproof-nodejs implementation<a href="https://github.com/santiq/bulletproof-nodejs"> LINK TO REPO </a> </p>
-    <br />
+    This is an updated version of Sam Quinn's bulletproof-nodejs implementation<a href="https://github.com/santiq/bulletproof-nodejs"> LINK TO REPO </a>
     <br />
     <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Report%20Bug">📝 Bug Report</a>
     ·
