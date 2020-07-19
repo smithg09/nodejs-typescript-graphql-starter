@@ -16,10 +16,10 @@
     <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Feature%20Request">📢 Feature Request</a>
     <br />
     <br />
-    [![MIT License][license-shield]][https://github.com/smithg09/nodejs-typescript-mongo-starter/blob/master/LICENSE]
-    [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/smith-gajjar-5a27716b/]
   </p>
 </p>
+    [![MIT License][license-shield]][https://github.com/smithg09/nodejs-typescript-mongo-starter/blob/master/LICENSE]
+    [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/smith-gajjar-5a27716b/]
 
 
 ## TechStack
