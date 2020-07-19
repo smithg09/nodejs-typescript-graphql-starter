@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo">
-    <img src="nodetype.png" alt="Logo" width="350" height="200">
+    <img src="nodetype.png" alt="Logo" width="250" height="100">
   </a>
 
   <h3 align="center">Nodejs-Typescript/Express/MongoDB Boilerplate</h3>
@@ -32,7 +32,7 @@
 ## TechStack
 
 
-* [Node.js][node], [TypeScript][https://www.typescriptlang.org/] , [JWT][https://jwt.io/], [Prettier][https://prettier.io/] — core platform and dev tools
+* [Node.js](https://nodejs.org/en/), [TypeScript][https://www.typescriptlang.org/] , [JWT][https://jwt.io/], [Prettier][https://prettier.io/] — core platform and dev tools
 <!-- * [GraphQL.js][gqljs], [GraphQL.js Relay][gqlrelay], [DataLoader][loader], [validator][validator] — [GraphQL][gql] schema and API endpoint -->
 * [MongoDB][https://www.mongodb.com/] — data access and db automation
 * [Jest][jest] - unit and snapshot testing
