@@ -13,7 +13,7 @@
     <br />
     <br />
     <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Report%20Bug">📝 Bug Report</a>
-    ⚫
+    ⚈
     <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Feature%20Request">📢 Feature Request</a>
     <br />
   </p>
