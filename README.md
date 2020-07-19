@@ -12,10 +12,10 @@
     This is an updated version of Sam Quinn's bulletproof-nodejs implementation<a href="https://github.com/santiq/bulletproof-nodejs"> LINK TO REPO </a>
     <br />
     <br />
-    ·
     <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Report%20Bug">📝 Bug Report</a>
-    ·
+    ⚫
     <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Feature%20Request">📢 Feature Request</a>
+    <br />
   </p>
 <p align="center">
 <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/blob/master/LICENSE">
