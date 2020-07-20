@@ -1,19 +1,19 @@
 import { Router, Request, Response } from 'express';
 import auth from './routes/auth';
-import user from './routes/user';
 import agendash from './routes/agendash';
+import graphQL from './graphql';
 
 // guaranteed to get dependencies
 export default () => {
   const app = Router();
   auth(app);
-  user(app);
+  graphQL(app);
   agendash(app);
 
   app.get('/server_status', (_req: Request, _res: Response) => {
     _res.status(200).json({
-      status: true,
-      message: 'Server Up & Running',
+      status: 200,
+      message: 'Server Connected',
     });
   });
 

@@ -4,7 +4,7 @@ import express from 'express';
 import Logger from './loaders/logger';
 
 class Server {
-  public app: express.Application;
+  private app: express.Application;
   constructor() {
     this.app = express();
     /**
@@ -24,7 +24,7 @@ class Server {
     });
   }
 
-  public startServer(app: express.Application) {
+  private startServer(app: express.Application) {
     app.listen(config.port, err => {
       if (err) {
         Logger.error(err);
