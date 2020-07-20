@@ -32,10 +32,10 @@
 ## Tech Stack
 
 
-* [Node.js](https://nodejs.org/en/), [TypeScript](https://www.typescriptlang.org/) , [JWT](https://jwt.io/), [Prettier](https://prettier.io/)— core platform and dev tools
-* [MongoDB](https://www.mongodb.com/) — data access and db automation
-* [Jest](https://jestjs.io/) - unit and snapshot testing
-<!-- * [GraphQL.js][gqljs], [GraphQL.js Relay][gqlrelay], [DataLoader][loader], [validator][validator] — [GraphQL][gql] schema and API endpoint -->
+* [Node.js](https://nodejs.org/en/), [TypeScript](https://www.typescriptlang.org/) , [JWT](https://jwt.io/), [Prettier](https://prettier.io/)— core platforms.
+* [GraphQL](https://graphql.org/), [express-graphql](https://github.com/graphql/express-graphql)- schema and Graphql API endpoint.
+* [MongoDB](https://www.mongodb.com/) — data access and db automation.
+* [Jest](https://jestjs.io/) - unit and snapshot testing.
 
 
 
@@ -57,7 +57,7 @@ The first time, you will need to run
 npm install
 ```
 
-Then just start the server with 
+Then just start the server with
 
 ```
 npm run start
@@ -68,7 +68,7 @@ It uses nodemon for livereloading ✌️
 
 # Roadmap
 - [x] Typescript class based implementation.
-- [ ] Add GraphQL Support.
+- [x] Add GraphQL Support.
 - [ ] CRUD Operations.
 - [ ] Unit tests.
 
