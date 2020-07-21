@@ -5,7 +5,7 @@
     <img src="nodetype.png" alt="Logo" width="250" height="100">
   </a>
 
-  <h3 align="center">Nodejs-Typescript/Express/MongoDB Boilerplate</h3>
+  <h3 align="center">Nodejs-Typescript/GraphQL/Express/MongoDB Boilerplate</h3>
 
   <p align="center">
     A 👨🏻‍💻 Node-Typescript/Express/MongoDB Boilerplate with User Authentication and Authorization with JWT support.<br />
