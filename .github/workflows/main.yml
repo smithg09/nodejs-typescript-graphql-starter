@@ -36,4 +36,4 @@ jobs:
         git push --set-upstream origin build
         
     - name : Final Build Iteration
-      run : mv  -v ~/build/* ~/
+      run : mv  -v build/* /
