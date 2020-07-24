@@ -11,9 +11,18 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v2.1.1
+    
+    - name : Install Dependencies 
+      run : npm install
       
     - name: Typescript compiler
       uses: iCrawl/action-tsc@v1
+    
+    - name : Build Project
+      run : tsc  
       
     - name: Push to new branch
       run: | 
