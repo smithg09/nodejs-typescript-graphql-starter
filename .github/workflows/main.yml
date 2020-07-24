@@ -26,7 +26,8 @@ jobs:
         git config --global user.email "smith.gajjar@gmail.com"
         git config --global user.name "Smith Gajjar"
         git fetch
-        git checkout -b build
+        git checkout --orphan build
+        git rm -rf .
         git add build
         git commit -m "New Build"
         git push --set-upstream origin build
