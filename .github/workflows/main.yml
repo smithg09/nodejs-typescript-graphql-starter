@@ -27,7 +27,7 @@ jobs:
         git config --global user.name "Smith Gajjar"
         git add .
         git commit -m "New Build"
-        git push --set-upstream origin build
+        git push --set-upstream origin master
         
     - name: Deploying to Heroku
       uses: akhileshns/heroku-deploy@v3.3.6 # This is the action
