@@ -27,6 +27,6 @@ jobs:
         git config --global user.name "Smith Gajjar"
         git fetch
         git checkout -b build
-        git add .
+        git add build
         git commit -m "New Build"
         git push --set-upstream origin build
