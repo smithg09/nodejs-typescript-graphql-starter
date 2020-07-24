@@ -9,7 +9,7 @@
 
   <p align="center">
     A 👨🏻‍💻 Node-Typescript/Express/MongoDB Boilerplate with User Authentication and Authorization with JWT support.This is an updated version of Sam Quinn's bulletproof-nodejs implementation<a href="https://github.com/santiq/bulletproof-nodejs"> Link to Repo </a><br /><br />
-    This project is hosted on heroku at typescript-graphql-apiv1.herokuapp.com/ <a href="https://typescript-graphql-apiv1.herokuapp.com/API/documentation" target="_blank"> 🌐 Try it out </a>
+    This project is hosted on heroku at <b>typescript-graphql-apiv1.herokuapp.com</b> <a href="https://typescript-graphql-apiv1.herokuapp.com/API/documentation" target="_blank"> 🌐 Try it out </a>
     <br />
     <br />
     <a href="https://documenter.getpostman.com/view/9636093/T1DpDdHt?version=latest">📝 API Documentation</a>
