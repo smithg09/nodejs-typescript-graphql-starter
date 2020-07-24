@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+      
     - name: Typescript compiler
       uses: iCrawl/action-tsc@v1
-      with:
-        build: "/build"
+      
     - name: Push to new branch
       run: | 
         git add .
