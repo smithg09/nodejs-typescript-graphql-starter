@@ -29,4 +29,4 @@ jobs:
         git checkout -b build
         git add .
         git commit -m "New Build"
-        git push origin
+        git push --set-upstream origin build
