@@ -28,6 +28,6 @@ jobs:
         git fetch
         git checkout --orphan build
         git rm -rf .
-        git add build
+        git add build/*
         git commit -m "New Build"
         git push --set-upstream origin build
