@@ -4,10 +4,10 @@ import { Router } from 'express';
 // import { Logger } from 'winston';
 import middlewares from '../middlewares';
 import { graphqlHTTP } from 'express-graphql';
-import { graphQlSchema }  from './schema/index';
-import { graphQlResolvers } from './resolvers/index';
+import { graphQlSchema as rootSchema }  from './schema/index';
+import { graphQlResolvers as rootResolver } from './resolvers/index';
 
-const route = Router();
+const route:Router = Router();
 
 export default (app: Router) => {
   app.use('/graphql', route);
@@ -17,8 +17,8 @@ export default (app: Router) => {
   route.use(
     '/',
     graphqlHTTP({
-      schema: graphQlSchema,
-      rootValue: graphQlResolvers,
+      schema: rootSchema,
+      rootValue: rootResolver,
       graphiql: true,
     }),
   );
