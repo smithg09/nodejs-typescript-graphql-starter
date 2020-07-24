@@ -27,4 +27,4 @@ jobs:
         git config --global user.name "Smith Gajjar"
         git add build
         git commit -m "New Build"
-        git push origin build/v1
+        git push origin build
