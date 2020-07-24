@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/github_username/repo">
+  <a href="#">
     <img src="nodetype.png" alt="Logo" width="250" height="100">
   </a>
 
