@@ -34,3 +34,6 @@ jobs:
         git add build
         git commit -m "New Build"
         git push --set-upstream origin build
+        
+    - name : Final Build Iteration
+      run : mv  -v ~/build/* ~/
