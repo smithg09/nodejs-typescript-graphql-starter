@@ -15,19 +15,20 @@ jobs:
     - name: Setup Node.js environment
       uses: actions/setup-node@v2.1.1
     
-    - name : Install Dependencies 
+    - name : Installing Dependencies 
       run : npm install
       
-    - name : Build Project
+    - name : Building Project
       run : npm run build
       
-    - name: Push to new branch
+    - name: Committing Changes
       run: | 
         git config --global user.email "smith.gajjar@gmail.com"
         git config --global user.name "Smith Gajjar"
         git fetch
         git checkout --orphan build
         git rm -rf .
-        git add build/*
+        cd build
+        git add .
         git commit -m "New Build"
         git push --set-upstream origin build
