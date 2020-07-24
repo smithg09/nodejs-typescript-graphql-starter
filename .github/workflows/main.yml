@@ -19,11 +19,15 @@ jobs:
       run : npm install
       
     - name : Building Project
-      run : | 
-        npm run build
+      run : npm run build
         
+    - name : Cleaning Repository
+      run : git push origin --delete build
+      
     - name : Getting Files
-      run : ls
+      run : | 
+        cd build
+        ls
       
     - name: Committing Changes
       run: | 
