@@ -19,7 +19,9 @@ jobs:
       run : npm install
       
     - name : Building Project
-      run : npm run build
+      run : | 
+        npm run build
+        cd build
       
     - name: Committing Changes
       run: | 
@@ -28,7 +30,6 @@ jobs:
         git fetch
         git checkout --orphan build
         git rm -rf .
-        cd build
         git add .
         git commit -m "New Build"
         git push --set-upstream origin build
