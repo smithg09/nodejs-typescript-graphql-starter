@@ -24,11 +24,6 @@ jobs:
     - name : Cleaning Repository
       run : git push origin --delete build
       
-    - name : Getting Files
-      run : | 
-        cd build
-        ls
-      
     - name: Committing Changes
       run: | 
         git config --global user.email "smith.gajjar@gmail.com"
