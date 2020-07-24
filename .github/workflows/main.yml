@@ -18,9 +18,6 @@ jobs:
     - name : Install Dependencies 
       run : npm install
       
-    - name: Typescript compiler
-      uses: iCrawl/action-tsc@v1
-    
     - name : Build Project
       run : tsc  
       
