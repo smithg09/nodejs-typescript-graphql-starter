@@ -20,17 +20,19 @@ jobs:
       
     - name : Building Project
       run : npm run build
-        
-    - name : Cleaning Repository
-      run : git push origin --delete build
       
     - name: Committing Changes
       run: | 
         git config --global user.email "smith.gajjar@gmail.com"
         git config --global user.name "Smith Gajjar"
-        git fetch
-        git checkout --orphan build
-        git rm -rf .
-        git add build/api/* build/config/* build/decorators/* build/interfaces/* build/jobs/* build/loaders/* build/models/* build/services/* build/subscribers/* build/app.js build/app.js.map 
+        git add .
         git commit -m "New Build"
         git push --set-upstream origin build
+        
+    - name: Deploying to Heroku
+      uses: akhileshns/heroku-deploy@v3.3.6 # This is the action
+      with:
+          heroku_api_key: ${{secrets.HEROKU_API_KEY}}
+          heroku_app_name: "typescript-graphql-apiv1" #Must be unique in Heroku
+          heroku_email: "smith.gajjar@gmail.com"
+          appdir: "build" # <- This will point to the api folder in your project
