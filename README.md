@@ -8,11 +8,13 @@
   <h3 align="center">Nodejs-Typescript/GraphQL/Express/MongoDB Boilerplate</h3>
 
   <p align="center">
-    A 👨🏻‍💻 Node-Typescript/Express/MongoDB Boilerplate with User Authentication and Authorization with JWT support.<br />
-    This is an updated version of Sam Quinn's bulletproof-nodejs implementation<a href="https://github.com/santiq/bulletproof-nodejs"> LINK TO REPO </a>
+    A 👨🏻‍💻 Node-Typescript/Express/MongoDB Boilerplate with User Authentication and Authorization with JWT support. This is an updated version of Sam Quinn's bulletproof-nodejs implementation<a href="https://github.com/santiq/bulletproof-nodejs"> Link to Repo </a>
+    This project is hosted on heroku at https://typescript-graphql-apiv1.herokuapp.com/ <a href="https://typescript-graphql-apiv1.herokuapp.com/API/documentation" target="_blank"> 🌐 Try it out </a>
     <br />
     <br />
-    <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Report%20Bug">📝 Bug Report</a> &nbsp;&nbsp;
+    <a href="https://documenter.getpostman.com/view/9636093/T1DpDdHt?version=latest">📝 API Documentation</a>
+    <br />
+    <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Report%20Bug">🐞 Bug Report</a> &nbsp;&nbsp;
     <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Feature%20Request">📢 Feature Request</a>
     <br />
   </p>
@@ -27,8 +29,6 @@
 <a href="#">
     <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source">
 </a>
-<!--   ![CI](https://github.com/smithg09/nodejs-typescript-graphql-starter/workflows/CI/badge.svg?branch=master) -->
-    
 </p>
 </p>
 

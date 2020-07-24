@@ -18,5 +18,9 @@ export default () => {
     });
   });
 
+  app.get('/documentation', (_req: Request, _res: Response) => {
+    _res.status(200).send('Please Visit this link for API documentation : https://documenter.getpostman.com/view/9636093/T1DpDdHt?version=latest');
+  });
+
   return app;
 };
