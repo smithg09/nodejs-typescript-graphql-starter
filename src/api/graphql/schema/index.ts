@@ -15,10 +15,8 @@ export const graphQlSchema = buildSchema(`
         }
 
         type RootQuery {
-          me: User!
-          allusers: [User]
+          users: [User]
         }
-
 
         schema {
             query: RootQuery
