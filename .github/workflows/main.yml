@@ -23,7 +23,7 @@ jobs:
         npm run build
         
     - name : Getting Files
-      run : cd build
+      run : ls
       
     - name: Committing Changes
       run: | 
