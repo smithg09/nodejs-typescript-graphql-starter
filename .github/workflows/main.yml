@@ -25,6 +25,7 @@ jobs:
       run: | 
         git config --global user.email "smith.gajjar@gmail.com"
         git config --global user.name "Smith Gajjar"
-        git add build/*
-        git commit -a -m "New Build"
+        git checkout build
+        git add build
+        git commit -m "New Build"
         git push origin build
