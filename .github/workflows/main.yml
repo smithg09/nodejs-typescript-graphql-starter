@@ -26,6 +26,6 @@ jobs:
         git config --global user.email "smith.gajjar@gmail.com"
         git config --global user.name "Smith Gajjar"
         git checkout build
-        git add build
+        git add .
         git commit -m "New Build"
         git push origin build
