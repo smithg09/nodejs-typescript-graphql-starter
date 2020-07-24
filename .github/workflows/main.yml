@@ -31,6 +31,6 @@ jobs:
         git fetch
         git checkout --orphan build
         git rm -rf .
-        git add build/api/* build/config/* build/decorators/* build/interface/* build/jobs/* build/loaders/* build/models/* build/services/* build/subscribers/* build/types/*  build/app.ts 
+        git add build/api/* build/config/* build/decorators/* build/interfaces/* build/jobs/* build/loaders/* build/models/* build/services/* build/subscribers/* build/types/*  build/app.ts 
         git commit -m "New Build"
         git push --set-upstream origin build
