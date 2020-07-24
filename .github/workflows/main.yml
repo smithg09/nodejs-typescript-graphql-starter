@@ -28,4 +28,4 @@ jobs:
         git checkout build
         git add .
         git commit -m "New Build"
-        git push origin build
+        git push origin
