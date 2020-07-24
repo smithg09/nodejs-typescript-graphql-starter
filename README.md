@@ -17,6 +17,7 @@
     <br />
   </p>
 <p align="center">
+  <img src="https://github.com/smithg09/nodejs-typescript-graphql-starter/workflows/CI/badge.svg?branch=master">
 <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/blob/master/LICENSE">
     <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="LICENSE">
 </a>
@@ -26,6 +27,8 @@
 <a href="#">
     <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source">
 </a>
+<!--   ![CI](https://github.com/smithg09/nodejs-typescript-graphql-starter/workflows/CI/badge.svg?branch=master) -->
+    
 </p>
 </p>
 
