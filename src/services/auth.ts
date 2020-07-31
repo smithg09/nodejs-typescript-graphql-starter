@@ -1,6 +1,6 @@
 import { Service, Inject } from 'typedi';
 import jwt from 'jsonwebtoken';
-// import MailerService from './mailer';
+import MailerService from './mailer';
 import config from '../config';
 import bcrypt from 'bcrypt';
 import { IUser, IUserInputDTO } from '../interfaces/IUser';
@@ -11,7 +11,7 @@ import events from '../subscribers/events';
 export default class AuthService {
   constructor(
     @Inject('userModel') private userModel: Models.UserModel,
-    // private mailer: MailerService,
+    private mailer: MailerService,
     @Inject('logger') private logger,
     @EventDispatcher() private eventDispatcher: EventDispatcherInterface,
   ) {}
@@ -56,7 +56,7 @@ export default class AuthService {
         throw new Error('User cannot be created');
       }
       this.logger.silly('Sending welcome email');
-      // await this.mailer.SendWelcomeEmail(userRecord);
+      await this.mailer.SendWelcomeEmail(userRecord.email);
 
       this.eventDispatcher.dispatch(events.user.signUp, { user: userRecord });
 

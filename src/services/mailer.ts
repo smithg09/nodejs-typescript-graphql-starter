@@ -1,20 +1,27 @@
+import { Container } from 'typedi';
 import { Service, Inject } from 'typedi';
 import { IUser } from '../interfaces/IUser';
+import { Logger } from 'winston';
 
 @Service()
 export default class MailerService {
-  constructor(@Inject('emailClient') private emailClient) {}
+  Logger: Logger;
+  constructor(@Inject('emailClient') private emailClient) {
+    this.Logger = Container.get('logger');
+  }
 
   public async SendWelcomeEmail(email) {
+
     /**
      * @TODO Call Mailchimp/Sendgrid or whatever
      */
     // Added example for sending mail from mailgun
+    this.Logger.debug(`🔥Sending Welcome mail to %o`, email);
     const data = {
       from: 'Excited User <me@samples.mailgun.org>',
-      to: email, //your email address
+      to: email,
       subject: 'Hello',
-      text: 'Testing some Mailgun awesomness!'
+      text: 'Testing some Mailgun awesomness!',
     };
 
     this.emailClient.messages().send(data);

@@ -52,7 +52,7 @@ export default (app: Router) => {
         const { user, token } = await authServiceInstance.SignIn(email, password);
         return res.json({ user, token }).status(200);
       } catch (e) {
-        logger.error('🔥 error: %o',  e );
+        logger.error('🔥 error: %o', e);
         return next(e);
       }
     },
