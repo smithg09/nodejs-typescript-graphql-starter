@@ -26,6 +26,9 @@
 <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues">
     <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="contributions welcome">
 </a>
+  
+  [![Run on Repl.it](https://repl.it/badge/github/smithg09/nodejs-typescript-graphql-starter)](https://repl.it/github/smithg09/nodejs-typescript-graphql-starter)
+
 <a href="#">
     <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" alt="Open Source">
 </a>
