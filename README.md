@@ -14,8 +14,8 @@
     <br />
     <a href="https://documenter.getpostman.com/view/9636093/T1DpDdHt?version=latest">📝 API Documentation</a>
     <br />
-    <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Report%20Bug">🐞 Bug Report</a> &nbsp;&nbsp;
-    <a href="https://github.com/smithg09/nodejs-typescript-mongo-starter/issues/new?title=Feature%20Request">📢 Feature Request</a>
+    <a href="https://github.com/smithg09/nodejs-typescript-graphql-starter/issues/new?assignees=&labels=&template=bug_report.md&title=">🐞 Bug Report</a> &nbsp;&nbsp;
+    <a href="https://github.com/smithg09/nodejs-typescript-graphql-starter/issues/new?assignees=&labels=&template=feature_request.md&title=">📢 Feature Request</a>
     <br />
   </p>
 <p align="center">
