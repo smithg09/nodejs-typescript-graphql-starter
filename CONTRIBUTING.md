@@ -46,7 +46,7 @@ Having a minimal reproducible scenario gives us a wealth of important informatio
 
 A minimal reproduction allows us to quickly confirm a bug (or point out a coding problem) as well as confirm that we are fixing the right problem.
 
-You can file [new issues](https://github.com/smithg09/nodejs-typescript-graphql-starter/issues/new?title=Feature%20Request).
+You can file [new issues](https://github.com/smithg09/nodejs-typescript-graphql-starter/issues/new/choose).
 
 
 ### <a name="submit-pr"></a> Submitting a Pull Request (PR)
