@@ -10,6 +10,7 @@ export const graphQlSchema = buildSchema(`
             password: String!
             salt: String!
             role: String!
+            lastLogin: Date
             createdAt: Date
             updatedAt: Date
         }
