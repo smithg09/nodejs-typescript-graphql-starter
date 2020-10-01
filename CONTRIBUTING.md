@@ -156,3 +156,4 @@ Any line of the commit message cannot be longer than 100 characters.
 [coc]: https://github.com/smithg09/nodejs-typescript-graphql-starter/blob/master/CODE_OF_CONDUCT.md
 [dev-doc]: https://documenter.getpostman.com/view/9636093/T1DpDdHt?version=latest
 [github]: https://github.com/smithg09/nodejs-typescript-graphql-starter/
+//Aishwarya Goythale
