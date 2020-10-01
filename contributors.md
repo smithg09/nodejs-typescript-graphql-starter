@@ -1,3 +1,4 @@
 Smith Gajjar 
-Hrithik Malvani 
+Hrithik Malvani
 Janhvi Patil
+Sonia Thakur
