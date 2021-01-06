@@ -30,7 +30,7 @@
   "dependencies": {
     "agenda": "^2.0.2",
     "agendash": "^1.0.0",
-    "axios": "^0.20.0",
+    "axios": "^0.21.1",
     "bcrypt": "^5.0.0",
     "body-parser": "^1.18.2",
     "celebrate": "^9.1.0",
